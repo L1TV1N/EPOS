@@ -1,0 +1,7 @@
+echo ".idea/" > .gitignore
+echo ".venv/" >> .gitignore
+echo "__pycache__/" >> .gitignore
+echo "*.pyc" >> .gitignore
+echo ".env" >> .gitignore
+echo "*.log" >> .gitignore
+echo "db.sqlite3" >> .gitignore
