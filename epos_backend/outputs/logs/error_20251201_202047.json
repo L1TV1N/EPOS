@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-12-01T20:20:47.606180",
+  "exception_type": "NameError",
+  "exception_message": "name 'Path' is not defined",
+  "traceback": [
+    "Traceback (most recent call last):\n",
+    "  File \"C:\\Users\\nikli\\PycharmProjects\\YAVDELE\\epos_backend\\main.py\", line 24, in <module>\n    from core.forecaster import EPOSForecaster, quick_load_forecast, compare_forecast_models\n",
+    "  File \"C:\\Users\\nikli\\PycharmProjects\\YAVDELE\\epos_backend\\core\\forecaster.py\", line 74, in <module>\n    class EPOSForecaster:\n",
+    "  File \"C:\\Users\\nikli\\PycharmProjects\\YAVDELE\\epos_backend\\core\\forecaster.py\", line 552, in EPOSForecaster\n    filename: str = None) -> Dict[str, Path]:\n",
+    "NameError: name 'Path' is not defined\n"
+  ]
+}

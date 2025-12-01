@@ -1,0 +1,17 @@
+2025-12-01 20:20:35 - EPOS - INFO - Лог-файл создан: C:\Users\nikli\PycharmProjects\YAVDELE\epos_backend\outputs\logs\epos_20251201_202035.log
+2025-12-01 20:20:35 - EPOS - INFO - ============================================================
+2025-12-01 20:20:35 - EPOS - INFO - Система логирования ЭПОС инициализирована
+2025-12-01 20:20:35 - EPOS - INFO - Уровень логирования: DEBUG
+2025-12-01 20:20:35 - EPOS - INFO - Логи в файл: True
+2025-12-01 20:20:35 - EPOS - INFO - Логи в консоль: True
+2025-12-01 20:20:35 - EPOS - INFO - ============================================================
+2025-12-01 20:20:47 - EPOS - CRITICAL - Непойманное исключение:
+Traceback (most recent call last):
+  File "C:\Users\nikli\PycharmProjects\YAVDELE\epos_backend\main.py", line 24, in <module>
+    from core.forecaster import EPOSForecaster, quick_load_forecast, compare_forecast_models
+  File "C:\Users\nikli\PycharmProjects\YAVDELE\epos_backend\core\forecaster.py", line 74, in <module>
+    class EPOSForecaster:
+  File "C:\Users\nikli\PycharmProjects\YAVDELE\epos_backend\core\forecaster.py", line 552, in EPOSForecaster
+    filename: str = None) -> Dict[str, Path]:
+NameError: name 'Path' is not defined
+2025-12-01 20:20:47 - EPOS - ERROR - Детали ошибки сохранены в: C:\Users\nikli\PycharmProjects\YAVDELE\epos_backend\outputs\logs\error_20251201_202047.json
